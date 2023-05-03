@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-03T22:00:03 IST" name="All Test Suite" finished-at="2023-05-03T22:02:07 IST" duration-ms="123367">
+    <groups>
+    </groups>
+    <test started-at="2023-05-03T22:00:03 IST" name="F:/Indivudual Project/src/test/java/Calculator/PasteBin.java" finished-at="2023-05-03T22:00:31 IST" duration-ms="28308">
+      <class name="org.example.Pagebin_Project_Test">
+        <test-method signature="loginverification()[pri:0, instance:org.example.Pagebin_Project_Test@49d904ec]" started-at="2023-05-03T22:00:03 IST" name="loginverification" finished-at="2023-05-03T22:00:31 IST" duration-ms="28194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+      </class> <!-- org.example.Pagebin_Project_Test -->
+    </test> <!-- F:/Indivudual Project/src/test/java/Calculator/PasteBin.java -->
+    <test started-at="2023-05-03T22:00:32 IST" name="Test1" finished-at="2023-05-03T22:01:12 IST" duration-ms="40615">
+      <class name="org.example.Google_Price_Cal_Test">
+        <test-method is-config="true" signature="openbrowser(java.lang.String,java.lang.String)[pri:0, instance:org.example.Google_Price_Cal_Test@40ef3420]" started-at="2023-05-03T22:00:32 IST" name="openbrowser" finished-at="2023-05-03T22:00:48 IST" duration-ms="16734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cloud.google.com/products/calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="checkInformationInVmClassString()[pri:0, instance:org.example.Google_Price_Cal_Test@40ef3420]" started-at="2023-05-03T22:00:48 IST" name="checkInformationInVmClassString" finished-at="2023-05-03T22:01:12 IST" duration-ms="23706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationInVmClassString -->
+        <test-method signature="check_Data_is_correct()[pri:0, instance:org.example.Google_Price_Cal_Test@40ef3420]" started-at="2023-05-03T22:01:12 IST" name="check_Data_is_correct" finished-at="2023-05-03T22:01:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Data_is_correct -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:org.example.Google_Price_Cal_Test@40ef3420]" started-at="2023-05-03T22:01:12 IST" name="driverclose" finished-at="2023-05-03T22:01:12 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- org.example.Google_Price_Cal_Test -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-05-03T22:01:12 IST" name="Test2" finished-at="2023-05-03T22:02:07 IST" duration-ms="54351">
+      <class name="org.example.Google_Price_Cal_Test">
+        <test-method is-config="true" signature="openbrowser(java.lang.String,java.lang.String)[pri:0, instance:org.example.Google_Price_Cal_Test@61862a7f]" started-at="2023-05-03T22:01:12 IST" name="openbrowser" finished-at="2023-05-03T22:01:40 IST" duration-ms="27792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cloud.google.com/products/calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="checkInformationInVmClassString()[pri:0, instance:org.example.Google_Price_Cal_Test@61862a7f]" started-at="2023-05-03T22:01:40 IST" name="checkInformationInVmClassString" finished-at="2023-05-03T22:02:04 IST" duration-ms="24238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationInVmClassString -->
+        <test-method signature="check_Data_is_correct()[pri:0, instance:org.example.Google_Price_Cal_Test@61862a7f]" started-at="2023-05-03T22:02:04 IST" name="check_Data_is_correct" finished-at="2023-05-03T22:02:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Data_is_correct -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:org.example.Google_Price_Cal_Test@61862a7f]" started-at="2023-05-03T22:02:04 IST" name="driverclose" finished-at="2023-05-03T22:02:07 IST" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- org.example.Google_Price_Cal_Test -->
+    </test> <!-- Test2 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
